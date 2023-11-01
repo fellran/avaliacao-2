@@ -6,7 +6,7 @@
     font-family: roboto;
 }
 
-/* header */
+
 #box-page{
     width: 100%;
     height: auto;
@@ -41,7 +41,7 @@ header{
     border-radius: 4px;
 }
 
-header input{
+input{
     width: 250px;
     height: 25px;
     border: none;
@@ -63,6 +63,8 @@ header input{
     background-position: center;
 }
 
+
+
 nav {
     display: flex;
     gap: 20px;
@@ -76,69 +78,60 @@ nav a{
 /* form */
 
 main{
+    width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: black;
 }
 
-form{
+form {
     width: 350px;
-    height: 260px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    margin-top: 20px;
-    border-radius: 5px;
     align-items: center;
-    border: 1px solid rgb(255, 255, 255);
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    border-radius: 4px;
 }
 
 fieldset{
     width: 100%;
-    height: 200px;
-    border: none;
-}
-
-fieldset h2{
-    text-align: center;
-    margin: 20px 0px;
-    color: white;
-}
-
-form div {
-    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
-    margin-left: 50px;
+    align-items: center;
+    border-radius: 4px;
+    gap: 25px;
+    color: white;
+    border: none;
+}
+
+div input{
+    display: flex;
+}
+
+h2,p{
     text-align: center;
 }
 
- input{
-    height: 24px;
-    padding-left: 6px;
-    border: none;
-    border-radius: 3px;
-}
-
-.style-input{
-    border: 2px solid rgba(0, 0, 255, 0.452);
-}
-
-
-div label{
-    color: white;
-}
-
-#style-submit{
-    width: 60px;
+#style-continuar{
+    width: 80px;
     height: 30px;
-    margin-left: 100px;
-    background-color: rgb(175, 175, 174);
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(175, 175, 174, 0.74);
+}
+
+#box-adicionais{
+    width: 350px;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+#box-adicionais h4{
     margin-bottom: 10px;
 }
 
@@ -153,12 +146,9 @@ div label{
 
 #sub-box a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 div input:focus{
     outline: 2px solid green;
 }
-
-
-

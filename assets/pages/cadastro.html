@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar</title>
-    <link rel="stylesheet" href="../styles/entrar.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../styles/cadastro.css">
 </head>
 <body>
     <header>
@@ -31,7 +32,12 @@
     <main>
         <form autocomplete="on" action="#" method="post">
             <fieldset>
-                <h2>Login</h2>
+                <h2>Cadastro</h2>
+                <div>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="email" id="inome" placeholder="Digite seu Nome" autocomplete="name" class="style-input">
+                </div>
+
                 <div >
                     <label for="iemail">Email</label>
                     <input type="text" name="email" id="iemail" placeholder="Digite seu Email" autocomplete="name" class="style-input">
@@ -43,13 +49,18 @@
                 </div>
 
                 <div>
-                   <input type="submit" value="Entrar" id="style-submit">
+                    <label for="irepita">Repita a senha</label>
+                    <input type="password" name="repita" id="irepita" placeholder="Repita a Senha" autocomplete="new-password" class="style-input">
+                </div>
+
+                <div>
+                   <input type="submit" value="Cadastrar" id="style-submit">
                 </div>
             </fieldset>
         </form>
 
         <div id="sub-box">
-            <div><a href="../pages/cadastro.html">Cadastro</a></div>
+            <div><a href="../../assets/pages/cadastro.html">Cadastro</a></div>
             <div><a href="./esqueci.html">Esqueci a senha</a></div>
         </div>
         

@@ -86,7 +86,7 @@ main{
 
 form{
     width: 350px;
-    height: 260px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
@@ -135,11 +135,12 @@ div label{
 }
 
 #style-submit{
-    width: 60px;
+    width: 70px;
     height: 30px;
     margin-left: 100px;
     background-color: rgb(175, 175, 174);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #sub-box{
