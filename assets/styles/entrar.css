@@ -6,7 +6,7 @@
     font-family: roboto;
 }
 
-
+/* header */
 #box-page{
     width: 100%;
     height: auto;
@@ -41,7 +41,7 @@ header{
     border-radius: 4px;
 }
 
-input{
+header input{
     width: 250px;
     height: 25px;
     border: none;
@@ -72,3 +72,89 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+/* form */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+form{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+fieldset{
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+fieldset h2{
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
+
+form div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+ input{
+    height: 24px;
+    padding-left: 6px;
+    border: none;
+    border-radius: 3px;
+}
+
+input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.452);
+}
+
+div label{
+    color: white;
+}
+
+#style-submit{
+    width: 60px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: rgb(175, 175, 174);
+}
+
+#sub-box{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#sub-box a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
