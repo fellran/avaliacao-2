@@ -76,7 +76,7 @@ nav a{
 /* form */
 
 main{
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;

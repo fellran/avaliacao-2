@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entrar</title>
-    <link rel="stylesheet" href="../styles/entrar.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/entrar.css" />
+  </head>
+  <body>
     <header>
-        <div id="logo"></div>
+      <div id="logo"></div>
 
-        <div id="box-pesquisa">
-            <input type="text" name="pesquisa" id="ipesquisa" placeholder="pesquisar na loja">
-            <a href="">
-                <div id="lupa-icon"></div>
-            </a>
+      <div id="box-pesquisa">
+        <input
+          type="text"
+          name="pesquisa"
+          id="ipesquisa"
+          placeholder="pesquisar na loja"
+        />
+        <a href="">
+          <div id="lupa-icon"></div>
+        </a>
+      </div>
+
+      <nav>
+        <a href="../../index.html">Home</a>
+
+        <div id="login-icon"></div>
+        <a href="./entrar.html">Entrar</a>
+
+        <div id="carrinho-icon"></div>
+        <a href="#">Carrinho</a>
+
+        <div id="menuicon" onclick="">
+          <img src="../images/menuSVG.svg" alt="" />
         </div>
-
-        <nav>
-            <a href="../../index.html">Home</a>
-
-            <div id="login-icon"></div>
-            <a href="./entrar.html">Entrar</a>
-
-            <div id="carrinho-icon"></div>
-            <a href="#">Carrinho</a>
-        </nav>
+      </nav>
     </header>
 
     <main>
-        <form autocomplete="on" action="#" method="post">
-            <fieldset>
-                <h2>Login</h2>
-                <div >
-                    <label for="iemail">Email</label>
-                    <input type="text" name="email" id="iemail" placeholder="Digite seu Email" autocomplete="name" class="style-input">
-                </div>
+      <form autocomplete="on" action="#" method="post">
+        <fieldset>
+          <h2>Login</h2>
+          <div>
+            <label for="iemail">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="iemail"
+              placeholder="Digite seu Email"
+              autocomplete="name"
+              class="style-input"
+            />
+          </div>
 
-                <div >
-                    <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="new-password" class="style-input">
-                </div>
+          <div>
+            <label for="isenha">Senha</label>
+            <input
+              type="password"
+              name="senha"
+              id="isenha"
+              placeholder="Digite sua senha"
+              autocomplete="new-password"
+              class="style-input"
+            />
+          </div>
 
-                <div>
-                   <input type="submit" value="Entrar" id="style-submit">
-                </div>
-            </fieldset>
-        </form>
+          <div>
+            <input type="submit" value="Entrar" id="style-submit" />
+          </div>
+        </fieldset>
+      </form>
 
-        <div id="sub-box">
-            <div><a href="../pages/cadastro.html">Cadastro</a></div>
-            <div><a href="./esqueci.html">Esqueci a senha</a></div>
-        </div>
-        
+      <div id="sub-box">
+        <div><a href="../pages/cadastro.html">Cadastro</a></div>
+        <div><a href="./esqueci.html">Esqueci a senha</a></div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
