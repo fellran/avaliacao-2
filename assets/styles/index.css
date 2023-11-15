@@ -72,7 +72,11 @@ nav {
 }
 
 nav a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: white;
+}
+
+nav a:hover{
     color: white;
 }
 
@@ -82,15 +86,6 @@ main{
     height: auto;
 }
 
-#box-banner{
-    width: 100%;
-    height: 600px;
-    background-color: aqua;
-    background-image: url(../images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 /* section nav infos */
 
