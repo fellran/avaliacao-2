@@ -1,108 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="../styles/cadastro.css" />
-  </head>
-  <body>
-    <header>
-      <div id="logo"></div>
 
-      <div id="box-pesquisa">
-        <input
-          type="text"
-          name="pesquisa"
-          id="ipesquisa"
-          placeholder="pesquisar na loja"
-        />
-        <a href="">
-          <div id="lupa-icon"></div>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../styles/cadastro.css" />
+</head>
+
+<body>
+  <header>
+    <div id="logo"></div>
+
+    <div id="box-pesquisa">
+      <input type="text" name="pesquisa" id="ipesquisa" placeholder="pesquisar na loja" />
+      <a href="">
+        <div id="lupa-icon"></div>
+      </a>
+    </div>
+
+    <nav>
+      <a href="../../index.html">Home</a>
+
+      <div id="login-icon"></div>
+      <a href="./entrar.html">Entrar</a>
+
+      <div></div>
+      <a href="./sobre.html">Sobre Nós</a>
+
+      <div></div>
+      <a href="../pages/catalogo.html">Catalogo</a>
+
+      <div id="menuicon" onclick="">
+        <img src="../images/menuSVG.svg" alt="" />
       </div>
+    </nav>
+  </header>
 
-      <nav>
-        <a href="../../index.html">Home</a>
-
-        <div id="login-icon"></div>
-        <a href="./entrar.html">Entrar</a>
-
-        <div></div>
-        <a href="./sobre.html">Sobre Nós</a>
-
-        <div></div>
-        <a href="#">Catalogo</a>
-
-        <div id="menuicon" onclick="">
-          <img src="../images/menuSVG.svg" alt="" />
+  <main>
+    <form autocomplete="on" action="#" method="post">
+      <fieldset>
+        <h2>Cadastro</h2>
+        <div>
+          <label for="inome">Nome</label>
+          <input type="text" name="email" id="inome" placeholder="Digite seu Nome" autocomplete="name"
+            class="style-input" />
         </div>
-      </nav>
-    </header>
 
-    <main>
-      <form autocomplete="on" action="#" method="post">
-        <fieldset>
-          <h2>Cadastro</h2>
-          <div>
-            <label for="inome">Nome</label>
-            <input
-              type="text"
-              name="email"
-              id="inome"
-              placeholder="Digite seu Nome"
-              autocomplete="name"
-              class="style-input"
-            />
-          </div>
+        <div>
+          <label for="iemail">Email</label>
+          <input type="text" name="email" id="iemail" placeholder="Digite seu Email" autocomplete="name"
+            class="style-input" />
+        </div>
 
-          <div>
-            <label for="iemail">Email</label>
-            <input
-              type="text"
-              name="email"
-              id="iemail"
-              placeholder="Digite seu Email"
-              autocomplete="name"
-              class="style-input"
-            />
-          </div>
+        <div>
+          <label for="isenha">Senha</label>
+          <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="new-password"
+            class="style-input" />
+        </div>
 
-          <div>
-            <label for="isenha">Senha</label>
-            <input
-              type="password"
-              name="senha"
-              id="isenha"
-              placeholder="Digite sua senha"
-              autocomplete="new-password"
-              class="style-input"
-            />
-          </div>
+        <div>
+          <label for="irepita">Repita a senha</label>
+          <input type="password" name="repita" id="irepita" placeholder="Repita a Senha" autocomplete="new-password"
+            class="style-input" />
+        </div>
 
-          <div>
-            <label for="irepita">Repita a senha</label>
-            <input
-              type="password"
-              name="repita"
-              id="irepita"
-              placeholder="Repita a Senha"
-              autocomplete="new-password"
-              class="style-input"
-            />
-          </div>
+        <div>
+          <input type="submit" value="Cadastrar" id="style-submit" />
+        </div>
+      </fieldset>
+    </form>
 
-          <div>
-            <input type="submit" value="Cadastrar" id="style-submit" />
-          </div>
-        </fieldset>
-      </form>
+    <div id="sub-box">
+      <div><a href="../../assets/pages/cadastro.html">Cadastro</a></div>
+      <div><a href="./esqueci.html">Esqueci a senha</a></div>
+    </div>
+  </main>
 
-      <div id="sub-box">
-        <div><a href="../../assets/pages/cadastro.html">Cadastro</a></div>
-        <div><a href="./esqueci.html">Esqueci a senha</a></div>
-      </div>
-    </main>
-  </body>
+</body>
+
 </html>

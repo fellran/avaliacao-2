@@ -6,6 +6,10 @@
     font-family: roboto;
 }
 
+body{
+    background-color: black;
+}
+
 /* header */
 #box-page{
     width: 100%;
@@ -161,5 +165,7 @@ div input:focus{
     outline: 2px solid green;
 }
 
+
+/* footer */
 
 
