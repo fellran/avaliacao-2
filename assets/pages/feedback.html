@@ -41,28 +41,67 @@
         </header>
 
         <main>
-            <section id="box-section-1">
+            <section id="box-section-1" class="box-section-style">
                 <div id="box-text">
                     <h1 class="style-text">Feedback</h1>
                     <p class="style-text">Diga nos o que vc acha dos nossos produtos</p>
                 </div>
-                <div id="box-conteudo">
-                    <textarea name="" id="ifeedback" cols="30" rows="10"></textarea>
-                    <button type="button" id="btn-enviar">Enviar</button>
+                <div id="box-conteudo" class="box-style">
+                    <div>
+                        <input type="text" name="ifeedback" id="feedbackInput" placeholder="Escreva o seu feedback">
+                    </div>
+                    <div>
+                        <button type="button" id="btn-enviar" class="btn-style">Enviar</button>
+                    </div>
+
+                    
+                    <div id="caixa">
+                        <ul>
+                            <li>Feedback Enviado!</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-
-            <section>
-                <div>
+            <hr>
+            <section class="box-section-style">
+                <section id="box-section-1" class="box-section-style">
+                    <div id="box-text">
+                        <h1 class="style-text">Sugestoes</h1>
+                        <p class="style-text">Envie uma sugestao</p>
+                    </div>
+                    <div id="box-conteudo" class="box-style">
+                        <div>
+                            <input type="text" name="ifeedback" id="sugestoesInput" placeholder="Escreva o seu feedback">
+                        </div>
+                        <div>
+                            <button type="button" id="btn-sugestoes" class="btn-style">Mandar</button>
+                        </div>
+    
+                        
+                        <div id="sugestoes">
+                            <ul>
+                                <li>Sugestão Enviada!</li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- <div>
                     <h1 class="style-text">Sugestoes</h1>
                     <p class="style-text">diga nos sugestoes para podermos melhorar nossos serviços</p>
                 </div>
 
-                <div>
+                <div class="box-style">
                     <input type="text" id="sugestoesInput" placeholder="Diga sugestoes">
-                    <button type="button" id="btn-sugestoes">Mandar</button>
+                    <button type="button" id="btn-sugestoes" class="btn-style">Mandar</button>
                 </div>
+
+                <div id="sugestoes">
+                    <ul>
+                        <li>Sugestão Enviada!</li>
+                    </ul>
+                </div> -->
             </section>
+
+         
         </main>
 
         <footer>
